@@ -13,16 +13,6 @@ set nthreads     8
 set _tilde 0
 #
 ############# end config ##############
-
-#trusty 14.04
-#deb http://us.archive.ubuntu.com/ubuntu trusty main restricted universe multiverse
-#deb http://us.archive.ubuntu.com/ubuntu trusty-security main restricted universe multiverse
-#deb http://us.archive.ubuntu.com/ubuntu trusty-updates main restricted universe multiverse
-
-#deb-src http://us.archive.ubuntu.com/ubuntu trusty main restricted universe multiverse
-#deb-src http://us.archive.ubuntu.com/ubuntu trusty-security main restricted universe multiverse
-#deb-src http://us.archive.ubuntu.com/ubuntu trusty-updates main restricted universe multiverse
-
 #xenial 16.04
 deb http://us.archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
 deb http://us.archive.ubuntu.com/ubuntu xenial main/debian-installer restricted/debian-installer universe/debian-installer multiverse/debian-installer
