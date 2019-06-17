@@ -1,0 +1,74 @@
+############# config ##################
+#
+# set base_path    /var/spool/apt-mirror
+#
+# set mirror_path  $base_path/mirror
+# set skel_path    $base_path/skel
+# set var_path     $base_path/var
+# set cleanscript $var_path/clean.sh
+# set defaultarch  <running host architecture>
+# set postmirror_script $var_path/postmirror.sh
+# set run_postmirror 0
+set nthreads     8
+set _tilde 0
+#
+############# end config ##############
+
+#trusty 14.04
+#deb http://us.archive.ubuntu.com/ubuntu trusty main restricted universe multiverse
+#deb http://us.archive.ubuntu.com/ubuntu trusty-security main restricted universe multiverse
+#deb http://us.archive.ubuntu.com/ubuntu trusty-updates main restricted universe multiverse
+
+#deb-src http://us.archive.ubuntu.com/ubuntu trusty main restricted universe multiverse
+#deb-src http://us.archive.ubuntu.com/ubuntu trusty-security main restricted universe multiverse
+#deb-src http://us.archive.ubuntu.com/ubuntu trusty-updates main restricted universe multiverse
+
+#xenial 16.04
+deb http://us.archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
+deb http://us.archive.ubuntu.com/ubuntu xenial main/debian-installer restricted/debian-installer universe/debian-installer multiverse/debian-installer
+deb http://us.archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse 
+deb http://us.archive.ubuntu.com/ubuntu xenial-security main/debian-installer restricted/debian-installer universe/debian-installer multiverse/debian-installer
+deb http://us.archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
+deb http://us.archive.ubuntu.com/ubuntu xenial-updates main/debian-installer restricted/debian-installer universe/debian-installer multiverse/debian-installer
+
+deb-src http://us.archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
+deb-src http://us.archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
+
+deb http://security.ubuntu.com/ubuntu xenial-security main restricted
+deb http://security.ubuntu.com/ubuntu xenial-security universe
+deb http://security.ubuntu.com/ubuntu xenial-security multiverse
+deb http://security.ubuntu.com/ubuntu xenial-security main/debian-installer restricted/debian-installer
+deb http://security.ubuntu.com/ubuntu xenial-security universe/debian-installer
+deb http://security.ubuntu.com/ubuntu xenial-security multiverse/debian-installer
+
+#bionic 18.04
+deb http://us.archive.ubuntu.com/ubuntu/ bionic main restricted
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-updates main restricted
+deb http://us.archive.ubuntu.com/ubuntu/ bionic universe
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-updates universe
+deb http://us.archive.ubuntu.com/ubuntu/ bionic multiverse
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-updates multiverse
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse
+
+deb http://us.archive.ubuntu.com/ubuntu/ bionic main/debian-installer restricted/debian-installer
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-updates main/debian-installer restricted/debian-installer
+deb http://us.archive.ubuntu.com/ubuntu/ bionic universe/debian-installer
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-updates universe/debian-installer
+deb http://us.archive.ubuntu.com/ubuntu/ bionic multiverse/debian-installer
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-updates multiverse/debian-installer
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-backports main/debian-installer restricted/debian-installer universe/debian-installer multiverse/debian-installer
+
+deb http://us.archive.ubuntu.com/ubuntu bionic-security main restricted universe multiverse 
+deb http://us.archive.ubuntu.com/ubuntu bionic-security main/debian-installer restricted/debian-installer universe/debian-installer multiverse/debian-installer
+
+deb http://security.ubuntu.com/ubuntu bionic-security main restricted
+deb http://security.ubuntu.com/ubuntu bionic-security universe
+deb http://security.ubuntu.com/ubuntu bionic-security multiverse
+deb http://security.ubuntu.com/ubuntu bionic-security main/debian-installer restricted/debian-installer
+deb http://security.ubuntu.com/ubuntu bionic-security universe/debian-installer
+deb http://security.ubuntu.com/ubuntu bionic-security multiverse/debian-installer
+
+clean http://us.archive.ubuntu.com/ubuntu
+clean http://archive.ubuntu.com/ubuntu
+clean http://security.ubuntu.com/ubuntu
